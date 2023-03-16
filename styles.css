@@ -1,0 +1,26 @@
+/* main page */
+
+.recipe {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.odin-recipes-box {
+     background-color: rgb(255, 0, 234);
+}
+
+/* main page end*/
+/* recipe styling begin */
+
+.recipe-image {
+    max-width: 50%;
+    height: auto;
+}
+
+.ingredients-list {
+    font-size: 20px;
+}
+
+.steps-list {
+    font-size: 18px;
+}
