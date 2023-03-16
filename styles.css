@@ -1,3 +1,21 @@
+/* All pages */
+
+
+* {
+    font-family: sans-serif,'Times New Roman', Times;
+}
+p,h1,h2,h3,ul,ol {
+    max-width: 50%;
+}
+
+body {
+     background: linear-gradient(45deg, rgb(255, 255, 255), rgb(124, 124, 199))
+  }
+
+p {
+    font-size: 18px;
+}
+
 /* main page */
 
 .recipe {
@@ -5,16 +23,16 @@
     font-size: 20px;
 }
 
-.odin-recipes-box {
-     background-color: rgb(255, 0, 234);
-}
 
 /* main page end*/
+
 /* recipe styling begin */
 
 .recipe-image {
     max-width: 50%;
     height: auto;
+    border: solid;
+    border-width: 1px;
 }
 
 .ingredients-list {
@@ -23,4 +41,13 @@
 
 .steps-list {
     font-size: 18px;
+}
+
+.back-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+
 }
